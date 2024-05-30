@@ -1,0 +1,23 @@
+
+ .link, .active_link{
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+    text-align: start;
+    border: 8px;
+    margin: 0;
+    border: 1px solid black;
+    padding: 0;
+    text-decoration: none;
+}
+
+.link:hover{
+    background: #E5D5FA;
+}
+.active_link:hover{
+    background: #E5D5FA;
+}
+.links{
+    margin-top: 80px;
+   
+}

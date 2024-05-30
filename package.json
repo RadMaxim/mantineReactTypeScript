@@ -2,7 +2,19 @@
   "name": "mantinecource",
   "version": "0.1.0",
   "private": true,
+  "presets": [
+    "react-app"
+  ],
   "dependencies": {
+    "@mantine/core": "^7.8.1",
+    "@mantine/dates": "^7.8.1",
+    "@mantine/dropzone": "^7.8.1",
+    "@mantine/hooks": "^7.8.1",
+    "@mantine/modals": "^7.8.1",
+    "@mantine/notifications": "^7.8.1",
+    "@mantine/prism": "^6.0.21",
+    "@mantine/rte": "^5.10.5",
+    "@tabler/icons-react": "^3.4.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,8 +22,12 @@
     "@types/node": "^16.18.96",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.11",
+    "express": "^4.19.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -39,5 +55,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "create-react-server": "^0.3.2"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
